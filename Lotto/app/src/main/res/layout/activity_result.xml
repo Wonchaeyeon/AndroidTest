@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ResultActivity">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/ball_03"
+            android:id="@+id/imageView6"
+            android:layout_marginLeft="12dp" android:layout_marginStart="12dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView4" android:layout_marginTop="62dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"/>
+    <TextView
+            android:text="홍길동 님의 로또번호 입니다."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" android:textSize="25sp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="53dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="54dp" android:layout_marginStart="54dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="54dp" android:layout_marginRight="54dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/ball_01"
+            android:id="@+id/imageView4"
+            android:layout_marginTop="62dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="31dp" android:layout_marginStart="31dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/ball_10"
+            android:id="@+id/imageView5"
+            android:layout_marginTop="62dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp" app:layout_constraintStart_toEndOf="@+id/imageView6"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/ball_11"
+            android:id="@+id/imageView7"
+            android:layout_marginTop="62dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp" app:layout_constraintStart_toEndOf="@+id/imageView5"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/ball_21"
+            android:id="@+id/imageView8"
+            android:layout_marginTop="62dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp" app:layout_constraintStart_toEndOf="@+id/imageView7"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/ball_32"
+            android:id="@+id/imageView9"
+            android:layout_marginTop="62dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp" app:layout_constraintStart_toEndOf="@+id/imageView8"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/money"
+            android:id="@+id/imageView10"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="45dp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="137dp" app:layout_constraintTop_toBottomOf="@+id/imageView6"/>
+</android.support.constraint.ConstraintLayout>
